@@ -1,0 +1,52 @@
+---
+title: "Examples"
+output: 
+  html_document: 
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_knit$set(root.dir = here::here())
+
+knitr::opts_chunk$set(echo = TRUE)
+
+library(here)
+```
+
+# Missing values
+
+```{r, message=FALSE}
+source(here('./prototype/remove_data.R'))
+```
+
+```{r}
+library(readr)
+df <- readr::read_csv(here('./prototype/data/mtcars.csv'))
+head(df)
+```
+
+```{r}
+remove_data(here('./prototype/data/mtcars.csv'), here('./prototype/output/mtcars_missing.csv'))
+```
+
+```{bash}
+head ./prototype//output/mtcars_missing.csv
+```
+
+# Columns to factors
+
+```{r}
+source(here('./prototype/dataframe_analysis.R'))
+source(here('./prototype/convert_to_factor.R'))
+```
+
+```{r}
+head(mtcars)
+```
+
+```{r}
+mtcars_fct <- (cols_to_fct(mtcars))
+head(mtcars_fct)
+```

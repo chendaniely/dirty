@@ -1,3 +1,7 @@
+prototype/output
+prototype/examples/*.html
+data/*
+
 # History files
 .Rhistory
 .Rapp.history
