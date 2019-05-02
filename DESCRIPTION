@@ -1,0 +1,16 @@
+Package: dirtyr
+Title: Make Data Dirty
+Version: 0.0.0.0001
+Authors@R: 
+    person(given = "Daniel",
+           family = "Chen",
+           role = c("aut", "cre"),
+           email = "chendaniely@gmail.com"),
+    person(given = "Hugo",
+           family = "Bowne-Anderson",
+           role = c("aut", "cre"),
+           email = "hugo@datacamp.com"
+Description: It's really tough to find dirty datasets that were licensed for commercial use. The point of this package is to construct such datasets that can be used for pedagogical purposes.
+License: GNU General Public License v3.0
+Encoding: UTF-8
+LazyData: true
