@@ -1,5 +1,7 @@
 This will be a package that dirties data in R. Motivation: we built a course on cleaning data and it was really tough to find dirty datasets that were licensed for commercial use. The point of this package is to construct such datasets that can be used for pedagogical purposes.
 
+See https://github.com/chendaniely/dirty/issues/5 for more thoughts about the package.
+
 
 # dirty
 tidyr -> dirty
