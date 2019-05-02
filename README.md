@@ -8,6 +8,10 @@ tidyr -> dirty
 
 ###### Why do all the tutorials you see use the same datasets?
 
-Because publicly available datasets that can be freely distributed and can also be used for commercial purposes are extremely limited and difficult and hard to find.
+@chendaniely &  @hugobowne built a course on [Cleaning data](https://www.datacamp.com/courses/cleaning-data-in-python) and it was really tough to find dirty datasets that were
+publicly available,
+can be freely distributed,
+and can also be used for commercial purposes.
+The point of this package is to construct such datasets that can be used for pedagogical purposes.
 Datasets that are "dirty" for a specific teaching example are also difficult to find as well.
 This package fixes these issues by taking any dataset and makes it "dirty".
